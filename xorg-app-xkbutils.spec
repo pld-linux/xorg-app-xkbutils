@@ -2,13 +2,13 @@ Summary:	xkbutils application
 Summary(pl):	Aplikacja xkbutils
 Name:		xorg-app-xkbutils
 Version:	0.99.0
-Release:	0.02
+Release:	0.1
 License:	MIT
 Group:		X11/Applications
-Source0:	http://xorg.freedesktop.org/X11R7.0-RC0/app/xkbutils-%{version}.tar.bz2
-# Source0-md5:	4b582a91d311314c379ab10acca22540
+Source0:	http://xorg.freedesktop.org/releases/X11R7.0-RC1/app/xkbutils-%{version}.tar.bz2
+# Source0-md5:	6d23cf6e5a87753e1c74cb8b7484f4f4
 URL:		http://xorg.freedesktop.org/
-BuildRequires:	autoconf
+BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
 BuildRequires:	pkgconfig >= 0.19
 BuildRequires:	xorg-lib-libXaw-devel
