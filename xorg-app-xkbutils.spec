@@ -1,5 +1,5 @@
-Summary:	xkbutils application
-Summary(pl):	Aplikacja xkbutils
+Summary:	xkbutils applications: xkbbell, xkbvleds, xkbwatch
+Summary(pl):	Aplikacje xkbutils: xkbbell, xkbvleds, xkbwatch
 Name:		xorg-app-xkbutils
 Version:	1.0.1
 Release:	1
@@ -17,10 +17,10 @@ BuildRequires:	xorg-util-util-macros
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-xkbutils application.
+xkbutils applications: xkbbell, xkbvleds, xkbwatch.
 
 %description -l pl
-Aplikacja xkbutils.
+Aplikacje xkbutils: xkbbell, xkbvleds, xkbwatch.
 
 %prep
 %setup -q -n xkbutils-%{version}
