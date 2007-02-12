@@ -1,5 +1,5 @@
 Summary:	xkbutils applications: xkbbell, xkbvleds, xkbwatch
-Summary(pl.UTF-8):   Aplikacje xkbutils: xkbbell, xkbvleds, xkbwatch
+Summary(pl.UTF-8):	Aplikacje xkbutils: xkbbell, xkbvleds, xkbwatch
 Name:		xorg-app-xkbutils
 Version:	1.0.1
 Release:	1
