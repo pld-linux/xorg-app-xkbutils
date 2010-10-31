@@ -1,19 +1,19 @@
 Summary:	xkbutils applications: xkbbell, xkbvleds, xkbwatch
 Summary(pl.UTF-8):	Aplikacje xkbutils: xkbbell, xkbvleds, xkbwatch
 Name:		xorg-app-xkbutils
-Version:	1.0.2
+Version:	1.0.3
 Release:	1
 License:	MIT
 Group:		X11/Applications
 Source0:	http://xorg.freedesktop.org/releases/individual/app/xkbutils-%{version}.tar.bz2
-# Source0-md5:	369a21641b7ca983d6641298e51d97f8
+# Source0-md5:	52ad6d8d87577a8ac736ab5488bec210
 URL:		http://xorg.freedesktop.org/
-BuildRequires:	autoconf >= 2.57
+BuildRequires:	autoconf >= 2.60
 BuildRequires:	automake
 BuildRequires:	pkgconfig >= 1:0.19
 BuildRequires:	xorg-lib-libXaw-devel
 BuildRequires:	xorg-lib-libxkbfile-devel
-BuildRequires:	xorg-util-util-macros >= 1.3
+BuildRequires:	xorg-util-util-macros >= 1.8
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
