@@ -12,7 +12,7 @@ BuildRequires:	autoconf >= 2.60
 BuildRequires:	automake
 BuildRequires:	pkgconfig >= 1:0.19
 BuildRequires:	xorg-lib-libXaw-devel
-BuildRequires:	xorg-lib-libxkbfile-devel
+BuildRequires:	xorg-proto-inputproto-devel
 BuildRequires:	xorg-util-util-macros >= 1.8
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
