@@ -2,7 +2,7 @@ Summary:	xkbutils applications: xkbbell, xkbvleds, xkbwatch
 Summary(pl.UTF-8):	Aplikacje xkbutils: xkbbell, xkbvleds, xkbwatch
 Name:		xorg-app-xkbutils
 Version:	1.0.4
-Release:	1
+Release:	2
 License:	MIT
 Group:		X11/Applications
 Source0:	http://xorg.freedesktop.org/releases/individual/app/xkbutils-%{version}.tar.bz2
@@ -60,6 +60,6 @@ rm -rf $RPM_BUILD_ROOT
 %attr(755,root,root) %{_bindir}/xkbbell
 %attr(755,root,root) %{_bindir}/xkbvleds
 %attr(755,root,root) %{_bindir}/xkbwatch
-%{_mandir}/man1/xkbbell.1x*
-%{_mandir}/man1/xkbvleds.1x*
-%{_mandir}/man1/xkbwatch.1x*
+%{_mandir}/man1/xkbbell.1*
+%{_mandir}/man1/xkbvleds.1*
+%{_mandir}/man1/xkbwatch.1*
